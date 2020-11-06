@@ -1,8 +1,8 @@
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import Search from "./pages/Search";
 
 import "./App.css";
-import axios from "axios";
+// import axios from "axios";
 
 function App() {
   return (
