@@ -6,13 +6,16 @@ const path = require("path");
 const PORT = process.env.PORT || 3001;
 
 const app = express();
+const apiRoutes = require("./routes/apiRoutes");
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+if (process.env.NODE_ENV === "production") {
 app.use(express.static("client/build"));
+}
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebooks", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactrecipes", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
@@ -28,6 +31,8 @@ connection.on("connected", () => {
 connection.on("error", (err) => {
   console.log("Mongoose connection error: ", err);
 });
+
+app.use("/api", apiRoutes);
 
 app.get("/api/config", (req, res) => {
   res.json({
