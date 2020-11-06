@@ -7,3 +7,5 @@ export default {
     return axios.get("/api/recipes", { params: { q: query } });
   }
 };
+
+
