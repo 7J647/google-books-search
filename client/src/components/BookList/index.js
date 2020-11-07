@@ -16,7 +16,7 @@ export function BookListItem(props) {
       <Container>
         <Row>
           <Col size="xs-4 sm-2">
-            <img src={props.thumbnail}/>
+            <img src={props.thumbnail} alt="thumbnail"/>
           </Col>
           <Col size="xs-8 sm-9">
             <h3>{props.title}</h3>
