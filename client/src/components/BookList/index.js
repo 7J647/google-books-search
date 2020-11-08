@@ -26,6 +26,9 @@ export function BookListItem(props) {
               Go to book!
             </a>
           </Col>
+          <Col size="xs-2 sm-1">
+          <button type="button" class="btn btn-danger">Save</button>
+          </Col>
         </Row>
       </Container>
     </li>
