@@ -68,6 +68,7 @@ function Search() {
                     </Button>
                   </Col>
                 </Row>
+                <div><br/></div>
               </Container>
             </form>
           </Col>
