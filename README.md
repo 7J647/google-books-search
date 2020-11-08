@@ -4,10 +4,10 @@
 ## Table of Contents
 #### &nbsp;&nbsp;&nbsp;&nbsp;[1)&nbsp;Introduction](#introduction)
 #### &nbsp;&nbsp;&nbsp;&nbsp;[2)&nbsp;Instructions](#usage)
-#### &nbsp;&nbsp;&nbsp;&nbsp;[4)&nbsp;Links](#links)
-#### &nbsp;&nbsp;&nbsp;&nbsp;[5)&nbsp;Contributing](#contributing)
-#### &nbsp;&nbsp;&nbsp;&nbsp;[6)&nbsp;License](#license)
-#### &nbsp;&nbsp;&nbsp;&nbsp;[7)&nbsp;Questions](#questions)   
+#### &nbsp;&nbsp;&nbsp;&nbsp;[3)&nbsp;Links](#links)
+#### &nbsp;&nbsp;&nbsp;&nbsp;[4)&nbsp;Contributing](#contributing)
+#### &nbsp;&nbsp;&nbsp;&nbsp;[5)&nbsp;License](#license)
+#### &nbsp;&nbsp;&nbsp;&nbsp;[6)&nbsp;Questions](#questions)   
 
 ## Introduction 
 
