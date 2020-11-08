@@ -32,7 +32,7 @@ function Search() {
   };
 
   const handleFormSubmit = event => {
-    // When the form is submitted, prevent its default behavior, get recipes update the recipes state
+    // When the form is submitted, prevent its default behavior, get books update the books state
     event.preventDefault();
     API.searchTerms(bookSearch)
       .then(res => setBooks(res.data.items))
@@ -52,7 +52,7 @@ function Search() {
                 <Row>
                   <Col size="xs-9 sm-10">
                     <Input
-                      name="RecipeSearch"
+                      name="BookSearch"
                       value={bookSearch}
                       onChange={handleInputChange}
                       placeholder="Search For a Book"
