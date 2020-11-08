@@ -1,15 +1,13 @@
 import React from "react";
-// import Thumbnail from "../Thumbnail";
+
 import { Container, Row, Col } from "../Grid";
 
-// Exporting both RecipeList and RecipeListItem from this file
-
-// RecipeList renders a bootstrap list item
+// BookList renders a bootstrap list item
 export function BookList(props) {
   return <ul className="list-group">{props.children}</ul>;
 }
 
-// RecipeListItem renders a bootstrap list item containing data from the recipe api call
+// BookListItem renders a bootstrap list item containing data from the google books api call
 export function BookListItem(props) {
   return (
     <li className="list-group-item">
